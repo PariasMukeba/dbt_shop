@@ -1,12 +1,10 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: stripe
     database: dbt-tutorial
     tables:
-      - name: customers
-      - name: orders
-      - name: products
+      - name: payment
       
       
       
